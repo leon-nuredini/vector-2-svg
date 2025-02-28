@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@image-tracer-ts/nodejs": "^1.0.4",
+    "autotrace": "^0.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-slow-down": "^2.0.3",
+    "form-data": "^4.0.2",
+    "helmet": "^8.0.0",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "pm2": "^5.4.3",
+    "sharp": "^0.33.5",
+    "vector-file-to-svg": "file:",
+    "winston": "^3.17.0",
+    "workerpool": "^9.2.0"
+  },
+  "name": "vector-file-to-svg",
+  "version": "1.0.0",
+  "description": "A web app to convert vector files to svg",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoloVerse/vector-file-to-svg.git"
+  },
+  "author": "Yoloway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoloVerse/vector-file-to-svg/issues"
+  },
+  "homepage": "https://github.com/YoloVerse/vector-file-to-svg#readme"
+}
